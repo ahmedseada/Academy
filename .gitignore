@@ -1,0 +1,7 @@
+Academy.API/bin/*
+Academy.Core/bin/*
+Academy.EF/bin/*
+Academy.API/obj/*
+Academy.Core/obj/*
+Academy.EF/obj/*
+.vs/*

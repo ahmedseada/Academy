@@ -1,22 +1,22 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1200px-.NET_Core_Logo.svg.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">Academy</h3>
 
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/ahmedseada/Academy/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/ahmedseada/Academy/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> Basic Academy Webapi that implemets Repository and UnitOfWork Design Pattern 
     <br> 
 </p>
 
@@ -34,7 +34,8 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+ <p> Basic asp.net webapi  That Implements Repository And UnitOfWork Pattern </p>
+ <p> Built Using asp.netcore 6 </p>
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -42,73 +43,56 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
+<p> dotnet version 6  </p>
+<p> asp.net core   </p>
+<p> dotnet cli   </p>
 
 ```
-Give examples
+dotnet tool install --global dotnet-ef
 ```
 
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be
+First Download dot.net 6 from this link
 
 ```
-Give the example
+https://dotnet.microsoft.com/en-us/download/dotnet/6.0
 ```
 
-And repeat
+First run the following command to get the database to your local sqlserver  in Academy.EF Folder
 
 ```
-until finished
+dotnet ef database update 
 ```
 
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+then in Academy.Api Folder Run  To Start Project
 ```
-Give an example
+dotnet run
 ```
 
-### And coding style tests
 
-Explain what these tests test and why
 
-```
-Give an example
-```
 
-## 🎈 Usage <a name="usage"></a>
 
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-
-Add additional notes about how to deploy this on a live system.
+ 
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Dotnet](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) - Dotnet 6
+- [Dotnetcore](https://docs.microsoft.com/en-us/aspnet/core/?WT.mc_id=dotnet-35129-website&view=aspnetcore-6.0) - Asp.net core Webapi
+- [Dotnet ClassLibrary](https://docs.microsoft.com/en-us/aspnet/core/?WT.mc_id=dotnet-35129-website&view=aspnetcore-6.0) -Dotnet ClassLibrary
+
+- [SqlServer](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) - Sql Server
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+- [@ahmedseada](https://github.com/ahmedseada) - Idea & Initial work
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+- Alot of respct for DevCreed   [@muhammadelhelaly](https://github.com/muhammadelhelaly)
+- https://www.youtube.com/c/DevCreed
+
